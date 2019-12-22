@@ -526,30 +526,46 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 
 			try {
 				// Allows post-processing of the bean factory in context subclasses.
+				//为BeanFactory对象执行后续的处理
+				//构建BeanFactory的功能就是管理bean对象，没有其它功能。
+				//postProcessBeanFactory加载配置中BeanFactory无法处理的类容。如propertyplacehodler的加载
 				postProcessBeanFactory(beanFactory);
 
 				// Invoke factory processors registered as beans in the context.
+				//在上下文（Context）中注册bean
+				//将上一步加载的内容，作为一个容器可以管理的bean对象注册到ApplicationContext中
+				//底层实质是将postProcessBeanFactory中加载的内容包装成一个容器ApplicationContext可以管理的对象
 				invokeBeanFactoryPostProcessors(beanFactory);
 
 				// Register bean processors that intercept bean creation.
+				//为beam注册拦截处理器（AOP相关）
+				//继续完成上一步的注册操作 配置文件中配置的bean对象都创建并注册完成
 				registerBeanPostProcessors(beanFactory);
 
 				// Initialize message source for this context.
+				//初始化上下文消息（初始化id为messageSource的国际化bean对象）
+				//il8n国际化 初始化国际消息源
 				initMessageSource();
 
 				// Initialize event multicaster for this context.
+				//初始化事件多播监听（处理事件监听，如ApplicationEvent事件等）。观察者模式实现机制
 				initApplicationEventMulticaster();
 
 				// Initialize other special beans in specific context subclasses.
+				//初始化主题资源（SpringUI主题ThemeSource）。spring框架提供的视图主题信息
 				onRefresh();
 
 				// Check for listener beans and register them.
+				//注册自定义监听器
 				registerListeners();
 
 				// Instantiate all remaining (non-lazy-init) singletons.
+				//实例化所有非lazy-init的singleton实例
 				finishBeanFactoryInitialization(beanFactory);
 
 				// Last step: publish corresponding event.
+				//发布最终的事件。生命周期监听事件(Lifecycle接口相关实现类的生命周期事件发布)
+				//spring定义了生命周期接口（Lifecycle接口）。可以实现容器启动调用初始化，容器销毁之前调用回收资源
 				finishRefresh();
 			}
 
