@@ -477,11 +477,15 @@ public class AdvisedSupport extends ProxyConfig implements Advised {
 	 * @return a List of MethodInterceptors (may also include InterceptorAndDynamicMethodMatchers)
 	 */
 	public List<Object> getInterceptorsAndDynamicInterceptionAdvice(Method method, @Nullable Class<?> targetClass) {
+		//方法匹配信息，获取spring容器中的缓存
 		MethodCacheKey cacheKey = new MethodCacheKey(method);
+		//从已知的缓存中获取需要执行的拦截器信息
 		List<Object> cached = this.methodCache.get(cacheKey);
 		if (cached == null) {
+			//查询代理对象需要执行的拦截器信息
 			cached = this.advisorChainFactory.getInterceptorsAndDynamicInterceptionAdvice(
 					this, method, targetClass);
+			//保存缓存数据，为后续其它代码提供缓存内容
 			this.methodCache.put(cacheKey, cached);
 		}
 		return cached;

@@ -159,6 +159,8 @@ public class ReflectiveMethodInvocation implements ProxyMethodInvocation, Clonea
 	@Nullable
 	public Object proceed() throws Throwable {
 		// We start with an index of -1 and increment early.
+		//开始执行代理方法。包含通知方法和目标对象中的真实方法。
+		//判断当前代理是否还有需要执行的通知。如果没有通知，制作目标代码
 		if (this.currentInterceptorIndex == this.interceptorsAndDynamicMethodMatchers.size() - 1) {
 			return invokeJoinpoint();
 		}

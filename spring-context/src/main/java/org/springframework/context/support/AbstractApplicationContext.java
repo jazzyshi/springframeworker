@@ -519,19 +519,24 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 			prepareRefresh();
 
 			// Tell the subclass to refresh the internal bean factory.
+			//告诉子类刷新内部工厂
 			ConfigurableListableBeanFactory beanFactory = obtainFreshBeanFactory();
 
 			// Prepare the bean factory for use in this context.
 			prepareBeanFactory(beanFactory);
 
 			try {
+
+				//https://www.jianshu.com/p/17b66e6390fd
+
 				// Allows post-processing of the bean factory in context subclasses.
 				//为BeanFactory对象执行后续的处理
 				//构建BeanFactory的功能就是管理bean对象，没有其它功能。
-				//postProcessBeanFactory加载配置中BeanFactory无法处理的类容。如propertyplacehodler的加载
+				//postProcessBeanFactory加载配置中BeanFactory无法处理的内容。如propertyplacehodler的加载
 				postProcessBeanFactory(beanFactory);
 
 				// Invoke factory processors registered as beans in the context.
+				//调用上下文中注册为bean的工厂处理器。
 				//在上下文（Context）中注册bean
 				//将上一步加载的内容，作为一个容器可以管理的bean对象注册到ApplicationContext中
 				//底层实质是将postProcessBeanFactory中加载的内容包装成一个容器ApplicationContext可以管理的对象
@@ -717,6 +722,12 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 	 * Instantiate and invoke all registered BeanFactoryPostProcessor beans,
 	 * respecting explicit order if given.
 	 * <p>Must be called before singleton instantiation.
+	 */
+	/**
+	 * 实例化并调用所有注册的BeanFactoryPostProcessor beans，
+	 * 遵守明确的命令。
+	 * 必须在单例实例化之前调用。
+	 * @param beanFactory
 	 */
 	protected void invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory) {
 		PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(beanFactory, getBeanFactoryPostProcessors());
