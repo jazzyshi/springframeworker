@@ -60,12 +60,13 @@ public class DefaultAdvisorChainFactory implements AdvisorChainFactory, Serializ
 		Class<?> actualClass = (targetClass != null ? targetClass : method.getDeclaringClass());
 		Boolean hasIntroductions = null;
 
-		//从配置信息中获取通知对象
+		//从配置信息config中获取通知对象（advisors列表），然后遍历
 		for (Advisor advisor : advisors) {
-			if (advisor instanceof PointcutAdvisor) {
+			if (advisor instanceof PointcutAdvisor) {//如果是PointcutAdvisor判断此advisor能否应用到目标方法method上
 				// Add it conditionally.
 				PointcutAdvisor pointcutAdvisor = (PointcutAdvisor) advisor;
 				if (config.isPreFiltered() || pointcutAdvisor.getPointcut().getClassFilter().matches(actualClass)) {
+					//检查当前advisor的pointer是否可以匹配当前方法
 					MethodMatcher mm = pointcutAdvisor.getPointcut().getMethodMatcher();
 					boolean match;
 					if (mm instanceof IntroductionAwareMethodMatcher) {
@@ -92,7 +93,7 @@ public class DefaultAdvisorChainFactory implements AdvisorChainFactory, Serializ
 					}
 				}
 			}
-			else if (advisor instanceof IntroductionAdvisor) {
+			else if (advisor instanceof IntroductionAdvisor) {//如果是IntroductionAdvisor判断此advisor能否应用到目标类targetclass上
 				IntroductionAdvisor ia = (IntroductionAdvisor) advisor;
 				if (config.isPreFiltered() || ia.getClassFilter().matches(actualClass)) {
 					Interceptor[] interceptors = registry.getInterceptors(advisor);
@@ -105,7 +106,8 @@ public class DefaultAdvisorChainFactory implements AdvisorChainFactory, Serializ
 			}
 		}
 
-		return interceptorList;
+		return interceptorList;//将满足条件的Advisor通过AvisorAdaptor转换成interceptor列表
+		//这个方法执行完毕后，Advised中配置的能够应用到连接点或者目标类的Advisor全部转化成了MethodInterceptor
 	}
 
 	/**
