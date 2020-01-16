@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91f60eed-e425-48ad-9a25-684e8662ba3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.6.4/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.6.4/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.6.4/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.6.4/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/noVersion/buildSrc.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/classes/java/main/org/springframework/build/api/ApiDiffPlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/classes/java/main/org/springframework/build/compile/CompilerConventionsPlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/classes/java/main/org/springframework/build/optional/OptionalDependenciesPlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/classes/java/main/org/springframework/build/testsources/TestSourcesPlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/libs/buildSrc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/pluginDescriptors/org.springframework.build.api-diff.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/pluginDescriptors/org.springframework.build.compile.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/pluginDescriptors/org.springframework.build.optional-dependencies.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/pluginDescriptors/org.springframework.build.test-sources.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/pluginUnderTestMetadata/plugin-under-test-metadata.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/reports/task-properties/report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/resources/main/META-INF/gradle-plugins/org.springframework.build.api-diff.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/resources/main/META-INF/gradle-plugins/org.springframework.build.compile.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/resources/main/META-INF/gradle-plugins/org.springframework.build.optional-dependencies.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/resources/main/META-INF/gradle-plugins/org.springframework.build.test-sources.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractRefreshableApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractRefreshableApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractXmlApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/FileSystemXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/FileSystemXmlApplicationContext.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VPuLRPChbAxbKc2wO3CKBO4rjn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ego/pom.xml" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91f60eed-e425-48ad-9a25-684e8662ba3d" name="Default Changelist" comment="" />
+      <created>1577166994234</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577166994234</updated>
+      <workItem from="1577166999620" duration="2531000" />
+      <workItem from="1577171916392" duration="1935000" />
+      <workItem from="1577237335962" duration="13874000" />
+      <workItem from="1577343668918" duration="1347000" />
+      <workItem from="1577428828094" duration="13000" />
+      <workItem from="1579075565876" duration="1251000" />
+      <workItem from="1579079187710" duration="1445000" />
+      <workItem from="1579138616110" duration="13859000" />
+    </task>
+    <task id="LOCAL-00001" summary="翻译">
+      <created>1577345419448</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577345419448</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="翻译" />
+    <option name="LAST_COMMIT_MESSAGE" value="翻译" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="805" y="413" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1577167209638">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="805" y="413" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577167209638" />
+    <state x="457" y="118" key="CommitChangelistDialog2" timestamp="1577345412372">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="457" y="118" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1577345412372" />
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1577167513224">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577167513224" />
+    <state x="739" y="279" key="FileChooserDialogImpl" timestamp="1579159416278">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="739" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1579159416278" />
+    <state x="460" y="166" key="SettingsEditor" timestamp="1579161567099">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="460" y="166" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1579161567099" />
+    <state x="681" y="266" width="564" height="524" key="StructurePopup" timestamp="1579165652822">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="681" y="266" width="564" height="524" key="StructurePopup/0.0.1920.1050@0.0.1920.1050" timestamp="1579165652822" />
+    <state x="45" y="252" width="1720" height="850" key="dock-window-1" timestamp="1577243832715">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="45" y="252" width="1720" height="850" key="dock-window-1/0.0.1920.1050@0.0.1920.1050" timestamp="1577243832715" />
+    <state x="0" y="516" width="698" height="534" key="find.popup" timestamp="1579164352562">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="0" y="516" width="698" height="534" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1579164352562" />
+    <state x="616" y="243" key="run.anything.popup" timestamp="1579080376246">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1579080376246" />
+    <state x="893" y="305" width="672" height="678" key="search.everywhere.popup" timestamp="1579165307002">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="893" y="305" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1579165307002" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/JdkDynamicAopProxy.java</url>
+          <line>158</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-webmvc/src/main/java/org/springframework/web/servlet/DispatcherServlet.java</url>
+          <line>1002</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/DefaultResourceLoader.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>1419</line>
+          <properties class="org.springframework.context.support.AbstractApplicationContext" method="refreshBeanFactory">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
